@@ -9,9 +9,9 @@ def hola_mundo():
     return '¡Hola! Mi pipeline de DevOps funciona correctamente.'
 
 
-@app.route('/mamamia')
-def mamamia():
-    return '¡Mamma Mia! Esto es una maravilla.'
+@app.route('/breadcrumb')
+def breadcrumb():
+    return '¡Hanzel! No te pierdas por el camino de la vida.'
 
 # Verifica si este archivo es el programa principal que se está ejecutando
 if __name__ == '__main__':
